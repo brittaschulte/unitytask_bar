@@ -12,6 +12,8 @@ public class Counter : MonoBehaviour
 
     public Transform[] itemSlots;
 
+    public GameObject[] fruitBaskets;
+
 
     public GameObject registerText;
 
@@ -32,8 +34,21 @@ public class Counter : MonoBehaviour
             Pickable newItem = Instantiate(item, itemSlot);
             pickedItems.Add(newItem);
             registerText.GetComponent<TextMeshPro>().text = getTotal().ToString();
+
+            if(pickedItems.Count == 5)
+            {
+                disableBaskets();
+            }
         }
         
+    }
+
+    private void disableBaskets()
+    {
+        foreach (GameObject go in fruitBaskets)
+        {
+            go.GetComponent<Collider>().enabled = false;
+        }
     }
 
     /// <summary>
