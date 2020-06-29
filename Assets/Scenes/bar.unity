@@ -2533,6 +2533,7 @@ MonoBehaviour:
   - {fileID: 809591542}
   - {fileID: 43144839}
   - {fileID: 826356507}
+  fruitBaskets: []
   registerText: {fileID: 0}
 --- !u!1 &354610886
 GameObject:
@@ -4484,6 +4485,12 @@ MonoBehaviour:
   - {fileID: 809591542}
   - {fileID: 43144839}
   - {fileID: 826356507}
+  fruitBaskets:
+  - {fileID: 6390475010629322461}
+  - {fileID: 5990204485702475189}
+  - {fileID: 8283045827798150990}
+  - {fileID: 4987749281383526360}
+  - {fileID: 54027838971415763}
   registerText: {fileID: 1909930798}
 --- !u!1 &613901591
 GameObject:
@@ -8747,6 +8754,7 @@ MonoBehaviour:
   - {fileID: 809591542}
   - {fileID: 43144839}
   - {fileID: 826356507}
+  fruitBaskets: []
   registerText: {fileID: 0}
 --- !u!1001 &1540641155
 PrefabInstance:
