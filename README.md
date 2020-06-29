@@ -18,15 +18,23 @@ Instructions:
 Asset Credits:
 
 Textures from Texture.com
+
 Brick https://www.textures.com/download/bricksmallbrown0466/116320
+
 Plaster https://www.textures.com/download/plasterwhite0147/69620
+
 Wood planks https://www.textures.com/download/woodplanksfloors0006/31394
+
 Fabric https://www.textures.com/download/pbr0285/134367
+
 Wood Grain https://www.textures.com/download/woodfine0059/116087
 
 Skybox by rpgwhitelock on Unity Asset Store https://assetstore.unity.com/packages/2d/textures-materials/sky/allsky-free-10-sky-skybox-set-146014
 
 Cash register sound by Benboncan on freesound.org https://freesound.org/people/Benboncan/sounds/91924/
+
 Pickup sound effect by Dustyroom un Unity Asset Store https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+
+
 
 Everything else by me
