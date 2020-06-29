@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// camera looks in direction of cursor
+/// </summary>
 public class CameraController : MonoBehaviour
 {
     Vector2 rotation = Vector2.zero;

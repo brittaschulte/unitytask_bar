@@ -11,13 +11,13 @@ public class Register : MonoBehaviour
     public Counter counter;
 
     public GameObject speechBubble;
-    public GameObject text;
+    public GameObject bubbleText;
     public GameObject speechBubbleBackground;
 
     void OnMouseDown()
     {
         resizeBubble();
-        text.GetComponent<TextMeshPro>().text = "You bought:\n" + counter.itemListToFormattedString() + "Your total is: " + counter.getTotal();
+        bubbleText.GetComponent<TextMeshPro>().text = "You bought:\n" + counter.itemListToFormattedString() + "Your total is: " + counter.getTotal();
         speechBubble.SetActive(true);
     }
 

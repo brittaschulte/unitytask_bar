@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 /// <summary>
@@ -10,6 +11,9 @@ public class Counter : MonoBehaviour
     List<Pickable> pickedItems;
 
     public Transform[] itemSlots;
+
+
+    public GameObject registerText;
 
     private void Start()
     {
@@ -25,9 +29,9 @@ public class Counter : MonoBehaviour
         if(pickedItems.Count < 5)
         { 
             Transform itemSlot = itemSlots[pickedItems.Count];
-            Pickable newItem = Instantiate(item, itemSlot.position, itemSlot.rotation);
-            newItem.GetComponent<Collider>().enabled = false;
+            Pickable newItem = Instantiate(item, itemSlot);
             pickedItems.Add(newItem);
+            registerText.GetComponent<TextMeshPro>().text = getTotal().ToString();
         }
         
     }
